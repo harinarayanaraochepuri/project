@@ -1,0 +1,75 @@
+<?xml v e r s i o n = ’ 1 . 0 ’ e n c o d i n g = ’ u t f −8 ’?>
+3 <scheme v e r s i o n =” 2 . 0 ” t i t l e =” ” d e s c r i p t i o n =” ”>
+4 <nodes>
+5 <node i d =” 0 ” name=” I m p o r t Documents ” q u a l i f i e d n a m e =” o r a n g e c o n t r i b . t e x t . w i d g e t s .
+owimportdocuments . OWImportDocuments ” p r o j e c t n a m e =” Orange3 −Text ” v e r s i o n =” ” t i t l e =” I m p o r t
+Documents ” p o s i t i o n =” ( 1 1 7 . 0 , 2 6 8 . 0 ) ” />
+6 <node i d =” 1 ” name=” Corpus Viewer ” q u a l i f i e d n a m e =” o r a n g e c o n t r i b . t e x t . w i d g e t s . owcorpusviewer .
+OWCorpusViewer ” p r o j e c t n a m e =” Orange3 −Text ” v e r s i o n =” ” t i t l e =” Corpus Viewer ” p o s i t i o n =”
+( 3 3 9 . 0 , 1 3 3 . 0 ) ” />
+7 <node i d =” 2 ” name=” S e n t i m e n t A n a l y s i s ” q u a l i f i e d n a m e =” o r a n g e c o n t r i b . t e x t . w i d g e t s .
+o w s e n t i m e n t a n a l y s i s . OWSentimentAnalysis ” p r o j e c t n a m e =” Orange3 −Text ” v e r s i o n =” ” t i t l e =”
+S e n t i m e n t A n a l y s i s ( 1 ) ” p o s i t i o n =” ( 3 3 3 . 0 , 2 7 1 . 0 ) ” />
+8 <node i d =” 3 ” name=” Data Table ” q u a l i f i e d n a m e =” Orange . w i d g e t s . d a t a . o w t a b l e . OWDataTable ”
+p r o j e c t n a m e =” Orange3 ” v e r s i o n =” ” t i t l e =” Data Table ( 1 ) ” p o s i t i o n =” ( 5 6 1 . 0 , 1 7 3 . 0 ) ” />
+9 <node i d =” 4 ” name=” Heat Map” q u a l i f i e d n a m e =” Orange . w i d g e t s . v i s u a l i z e . owheatmap . OWHeatMap”
+p r o j e c t n a m e =” Orange3 ” v e r s i o n =” ” t i t l e =” Heat Map ( 1 ) ” p o s i t i o n =” ( 5 6 9 . 0 , 2 7 1 . 0 ) ” />
+10 <node i d =” 5 ” name=” E x t r a c t Keywords ” q u a l i f i e d n a m e =” o r a n g e c o n t r i b . t e x t . w i d g e t s . owkeywords .
+OWKeywords” p r o j e c t n a m e =” Orange3 −Text ” v e r s i o n =” ” t i t l e =” E x t r a c t Keywords ( 1 ) ” p o s i t i o n =”
+( 5 7 0 . 0 , 3 7 9 . 0 ) ” />
+11 <node i d =” 6 ” name=” Corpus Viewer ” q u a l i f i e d n a m e =” o r a n g e c o n t r i b . t e x t . w i d g e t s . owcorpusviewer .
+OWCorpusViewer ” p r o j e c t n a m e =” Orange3 −Text ” v e r s i o n =” ” t i t l e =” Corpus Viewer ( 1 ) ” p o s i t i o n =”
+( 7 6 7 . 0 , 1 7 4 . 0 ) ” />
+12 <node i d =” 7 ” name=” Corpus Viewer ” q u a l i f i e d n a m e =” o r a n g e c o n t r i b . t e x t . w i d g e t s . owcorpusviewer .
+OWCorpusViewer ” p r o j e c t n a m e =” Orange3 −Text ” v e r s i o n =” ” t i t l e =” Corpus Viewer ( 2 ) ” p o s i t i o n =”
+( 7 7 1 . 0 , 2 7 3 . 0 ) ” />
+13 <node i d =” 8 ” name=” Save Data ” q u a l i f i e d n a m e =” Orange . w i d g e t s . d a t a . owsave . OWSave” p r o j e c t n a m e =”
+Orange3 ” v e r s i o n =” ” t i t l e =” Save Data ” p o s i t i o n =” ( 7 5 3 . 0 , 5 2 . 0 ) ” />
+14 </nodes>
+15 <l i n k s >
+16 <l i n k i d =” 0 ” s o u r c e n o d e i d =” 0 ” s i n k n o d e i d =” 1 ” s o u r c e c h a n n e l =” Corpus ” s i n k c h a n n e l =” Corpus ”
+e n a b l e d =” t r u e ” />
+17 <l i n k i d =” 1 ” s o u r c e n o d e i d =” 0 ” s i n k n o d e i d =” 2 ” s o u r c e c h a n n e l =” Corpus ” s i n k c h a n n e l =” Corpus ”
+e n a b l e d =” t r u e ” />
+18 <l i n k i d =” 2 ” s o u r c e n o d e i d =” 2 ” s i n k n o d e i d =” 3 ” s o u r c e c h a n n e l =” Corpus ” s i n k c h a n n e l =” Data ”
+e n a b l e d =” t r u e ” />
+19 <l i n k i d =” 3 ” s o u r c e n o d e i d =” 2 ” s i n k n o d e i d =” 4 ” s o u r c e c h a n n e l =” Corpus ” s i n k c h a n n e l =” Data ”
+e n a b l e d =” t r u e ” />
+20 <l i n k i d =” 4 ” s o u r c e n o d e i d =” 2 ” s i n k n o d e i d =” 5 ” s o u r c e c h a n n e l =” Corpus ” s i n k c h a n n e l =” Corpus ”
+e n a b l e d =” t r u e ” />
+21 <l i n k i d =” 5 ” s o u r c e n o d e i d =” 3 ” s i n k n o d e i d =” 6 ” s o u r c e c h a n n e l =” S e l e c t e d Data ” s i n k c h a n n e l =”
+Corpus ” e n a b l e d =” t r u e ” />
+26
+22 <l i n k i d =” 6 ” s o u r c e n o d e i d =” 4 ” s i n k n o d e i d =” 7 ” s o u r c e c h a n n e l =” S e l e c t e d Data ” s i n k c h a n n e l =”
+Corpus ” e n a b l e d =” t r u e ” />
+23 <l i n k i d =” 7 ” s o u r c e n o d e i d =” 3 ” s i n k n o d e i d =” 8 ” s o u r c e c h a n n e l =” S e l e c t e d Data ” s i n k c h a n n e l =”
+Data ” e n a b l e d =” t r u e ” />
+24 </ l i n k s >
+25 <a n n o t a t i o n s />
+26 <t h u m b n a i l />
+27 <n o d e p r o p e r t i e s >
+28 <p r o p e r t i e s n o d e i d =” 2 ” f o r m a t =” l i t e r a l ”>{ ’ autocommit ’ : True , ’ c o n t r o l A r e a V i s i b l e ’ : True , ’
+l i u l a n g u a g e ’ : ’ E n g l i s h ’ , ’ method idx ’ : 1 , ’ m u l t i l a n g u a g e ’ : ’ A r a b i c ’ , ’ savedWidgetGeometry ’ : b ’
+\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\ r \x00\x00\x00\ x f e \x00\x00\ x03I \x00\x00\x02\x17\x00\
+x00\x02\ r \x00\x00\x00\ x f e \x00\x00\ x03I \x00\x00\x02\x17\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\
+x00\x02\ r \x00\x00\x00\ x f e \x00\x00\ x03I \x00\x00\x02\x17 ’ , ’ s e n t i l a n g u a g e ’ : ’ E n g l i s h ’ , ’ v e r s i o n
+’ : 1}</ p r o p e r t i e s >
+29 <p r o p e r t i e s n o d e i d =” 3 ” f o r m a t =” l i t e r a l ”>{ ’ auto commit ’ : True , ’ c o l o r b y c l a s s ’ : True , ’
+c o n t r o l A r e a V i s i b l e ’ : True , ’ d i s t c o l o r R G B ’ : ( 2 2 0 , 220 , 220 , 255) , ’ savedWidgetGeometry ’ : b ’
+\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\ t \x00\x00\x00\\\x00\x00\x04 /\ x00\x00\x02o\x00\
+x00\x00\n\x00\x00\x00{\x00\x00\x04 . \ x00\x00\x02n\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\
+x00\x00\n\x00\x00\x00{\x00\x00\x04 . \ x00\x00\x02n ’ , ’ s e l e c t r o w s ’ : True , ’ s e l e c t e d c o l s ’ : [ 0 ,
+1 , 2 , 3 , 4 , 5 , 6 , 7 ] , ’ s e l e c t e d r o w s ’ : [ 9 3 ] , ’ s h o w a t t r i b u t e l a b e l s ’ : True , ’
+s h o w d i s t r i b u t i o n s ’ : True , ’ v e r s i o n ’ : 2}</ p r o p e r t i e s >
+30 <p r o p e r t i e s n o d e i d =” 8 ” f o r m a t =” l i t e r a l ”>{ ’ a d d t y p e a n n o t a t i o n s ’ : True , ’ a u t o s a v e ’ : F a l s e , ’
+c o n t r o l A r e a V i s i b l e ’ : True , ’ f i l t e r ’ : ’Tab− s e p a r a t e d v a l u e s ( * . t a b ) ’ , ’ savedWidgetGeometry ’ :
+b ’\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02 ?\ x00\x00\x01\x0e\x00\x00\x03\x16\x00\x00\x01\
+xab\x00\x00\x02@\x00\x00\x01 −\x00\x00\x03\x15\x00\x00\x01\ xaa \x00\x00\x00\x00\x00\x00\x00\
+x00\x05V\x00\x00\x02@\x00\x00\x01 −\x00\x00\x03\x15\x00\x00\x01\ xaa ’ , ’ s t o r e d n a m e ’ : ’ ’ , ’
+s t o r e d p a t h ’ : ’C : / Users / hussam . h o u r a n i / Documents / OrangeDatamining ’ , ’ v e r s i o n ’ : 2}</
+p r o p e r t i e s >
+31 </ n o d e p r o p e r t i e s >
+32 <s e s s i o n s t a t e >
+33 <window groups />
+34 </ s e s s i o n s t a t e >
+35 </scheme>
