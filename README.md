@@ -1,7 +1,10 @@
-Sentimental Analysis using Data Mining is the present project we are discussing
-about. In the project we are proposing Data visualization and we are going to use
-Naive bayes algorithm where they will be less error rate and accuracy of data will
-high and it will be more efficiency. Here it will give exact analysis by the data set
-that we have downloaded and we have used Heat map visualization so that there will
-we can see difference in the attributes and and we can select upto how many reviews
-we need.
+In this project, ”Sentimental Analysis using Data Mining”, we can understand the
+clear cut situation quality of the particular business, movies, books, products, OTT
+platforms, etc., People who already experience the particular attribute will share their
+experiences in the form of reviews. But reading every review is a tough thing. And
+also it may varies from a person to person. So by this project, we can overcome this
+problem.
+We can easily understand the analysis by the text processing using Data Mining
+and python. The outcomes of the project is beneficial to the customers and owners.
+Customers won’t waste their money on the wrong products and business owners can
+improve their services in a better way.
